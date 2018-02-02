@@ -1,0 +1,148 @@
+@media (max-width: 1235px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .title-one p {
+        text-align: center;
+    }
+
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1028px) {
+
+    .two h3 {
+        font-size: 30px;
+    }
+
+    .two p {
+        font-size: 14px;
+    } 
+    
+    .img-three {
+        height: 430px;
+    }
+
+
+
+}
+
+@media (max-width: 1060px) {
+    
+        .three {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .topics {
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .topics p {
+            font-size: 16px;
+        }
+
+        .img-three {
+            margin-bottom: 80px;
+        }
+    
+    }
+
+    @media (max-width: 1024px) {
+        
+            .menu-footer p {
+                font-size: 14px;
+            }
+
+            .menu-footer li {
+                font-size: 14px;
+            }
+
+            .select select {
+                width: 200px;
+            }
+
+            .four .select {
+                width: 318px;
+            }
+
+            .four a {
+                width: 320px
+            }
+
+            .media img {
+                width: 350px;
+            }
+        
+        }
+
+        @media (max-width:920px) {
+            .menu-footer {
+                display: none;
+            }
+
+            .title-header h2 {
+                font-size: 24px;
+            }
+
+            .title-header p {
+                font-size: 20px;
+                width: auto;
+                margin-bottom: 80px;
+            }
+
+            .title-one h2 {
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .title-one p {
+                margin: 30px 0 180px 0;
+            }
+
+            .content {
+                align-items: center;
+                justify-content: center;
+            }
+
+            .four h3 {
+                padding: 0 10% 0 10%;
+                font-size: 26px;
+            }
+
+            .four p {
+                font-size: 20px;
+                padding: 0 10% 0 10%;
+                width: auto;
+            }
+
+            .one p {
+                width: auto;
+            }
+
+            .footer {
+                margin: 30px 0 30px 0;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .footer li {
+                font-size: 16px;
+            }
+        }
