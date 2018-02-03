@@ -21,7 +21,8 @@ header {
 }
 
 .top {
-    display: flex;    
+    width: 100%;
+    display: flex;
 }
 
 .menu {
@@ -71,8 +72,6 @@ header {
 }
 
 .title-header p {
-    width: 611px;
-    height: 56px;
     margin-top: 30px;
     opacity: 0.9;
     color: #ffffff;
@@ -80,17 +79,19 @@ header {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .title-header li {
-    width: 267px;
     height: 55px;
     margin-top: 30px;
     border-radius: 100px;
     background-color: #fd5c63;
+    white-space: nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 10% 0 10%;
 }
 
 .title-header a {
@@ -106,8 +107,8 @@ header {
 /* COMEÇA SECTION 1 */
 
 .one {
-    width: 90%;
-    padding: 0 5% 0 5%;
+    width: 80%;
+    padding: 0 10% 0 10%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -115,7 +116,8 @@ header {
 }
 
 .title-one {
-    width: 60%;
+    width: 55%;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,8 +125,6 @@ header {
 }
 
 .title-one h2 {
-    width: 489px;
-    height: 45px;
     color: #4c4c51;
     font-family: "Source Sans Pro";
     font-size: 36px;
@@ -132,8 +132,6 @@ header {
 }
 
 .title-one p {
-    width: 693px;
-    height: 84px;
     opacity: 0.9;
     color: #88939e;
     font-family: "Source Sans Pro";
@@ -142,7 +140,13 @@ header {
 }
 
 .media {
-    width: 40%;
+    width: 35%;
+    margin-left: 5%;    
+}
+
+.media img {
+    width: 100%;
+    min-width: 320px;
 }
 
 /* FECHA SECTION 1 */
@@ -174,6 +178,7 @@ header {
     font-family: "Source Sans Pro";
     font-size: 22px;
     font-weight: 400;
+    text-align: center;
 }
 
 .two hr {
@@ -197,9 +202,9 @@ header {
 }
 
 .img-three {
-    width: 50%;
-    min-width: 600px;
-    height: 460px;
+    margin-right: 5%;
+    width: 45%;
+    padding-bottom: 20px;
     border-radius: 4px;
     background-color: #fd6e74;
     display: flex;
@@ -209,11 +214,9 @@ header {
 
 .img-three img {
     width: 100%;
-    min-width: 600px;
 }
 
 .img-three p {
-    max-width: 435px;
     margin: 0 10% 0 10%;
     opacity: 0.9;
     color: #ffffff;
@@ -223,8 +226,8 @@ header {
 }
 
 .topics {
-    width: 50%;
-    height: 490px;
+    margin-left: 5%;
+    width: 45%;
     margin-right: 10%;
     display: flex;
     flex-direction: column;
@@ -233,7 +236,6 @@ header {
 }
 
 .topics p {
-    width: 342px;
     margin: 0 0 10px 20px;
     opacity: 0.9;
     color: #88939e;
@@ -242,50 +244,20 @@ header {
     font-weight: 400;
 }
 
-.topic1 {
+.topic {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin: 15px 0 20px 0;
 }
 
-.topic1 p:first-of-type {
+.topic p:first-of-type {
     color: #fb5c68;
     font-weight: 700;
 }
 
-.topic1 p:last-of-type {
-    margin-bottom: 50px;
-}
-
-.topic2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.topic2 p:first-of-type {
-    color: #fb5c68;
-    font-weight: 700;
-}
-
-.topic2 p:last-of-type {
-    margin-bottom: 50px;
-}
-
-.topic3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.topic3 p:first-of-type {
-    color: #fb5c68;
-    font-weight: 700;
-}
-
-.topic3 p:last-of-type {
-    margin-bottom: 50px;
+.topic p:last-of-type {
+    margin-bottom: 0;
 }
 
 .icon {
@@ -293,7 +265,7 @@ header {
 }
 
 .icon img {
-    width: 100%;
+    width: 50px;
 }
 
 /* FECHA SECTION 3 */
@@ -301,6 +273,8 @@ header {
 /* COMEÇA SECTION 4 */
 
 .four {
+    width: 80%;
+    padding: 0 10% 0 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,17 +291,18 @@ header {
 }
 
 .four p {
+    width: 70%;
     opacity: 0.9;
     color: #88939e;
     font-family: "Source Sans Pro";
     font-size: 22px;
     font-weight: 400;
-    width: 820px;
     margin-bottom: 70px;
 }
 
 .four .select {
-    width: 470px;
+    width: 30%;
+    padding: 0 10% 0 10%;    
     height: 60px;
     border-radius: 30px 30px 0 0;
     border: 2px solid #dbdbdb;
@@ -336,8 +311,8 @@ header {
     align-items: center;
 }
 
-.select select {
-    width: 395px;
+.select select { 
+    width: 100%;  
     border: 0;
     opacity: 0.9;
     color: #88939e;
@@ -347,7 +322,8 @@ header {
 }
 
 .four a {
-    width: 474px;
+    width: 30%;
+    padding: 0 10% 0 10%;
     height: 60px;
     border-radius: 0  0 30px 30px;
     background-color: #fd6e74;
@@ -356,6 +332,7 @@ header {
     font-family: "Source Sans Pro";
     font-size: 22px;
     font-weight: 400;
+    white-space: nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,7 +349,7 @@ footer {
 }
 
 .select-footer {
-    width: 400px;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -381,8 +358,8 @@ footer {
 }
 
 .select-footer select {
+    width: 100%;
     padding: 0 15px 0 15px;
-    width: 339px;
     height: 60px;
     border-radius: 2px;
     border: 2px solid #dbdbdb;
@@ -420,6 +397,7 @@ footer hr {
 }
 
 .content {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -432,12 +410,10 @@ footer hr {
 }
 
 .footer img {
-    width: 113px;
     height: 35px;
 }
 
 .footer ul {
-    min-width: 500px;
     width: 30%;
     display: flex;
     justify-content: space-around;
