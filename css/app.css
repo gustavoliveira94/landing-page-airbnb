@@ -12,6 +12,10 @@ body {
     width: 100%;
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* PARTE DO HEADER */
 
 header {
@@ -41,8 +45,29 @@ header {
     font-weight: 400;
 }
 
-.menu a:hover {
-    border-bottom: 1px solid #ffffff;
+.hamburger {
+    display: none;
+}
+
+.hamburger i {
+    font-size: 24px;
+}
+
+.menu-mobile {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-mobile a {
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .logo {
@@ -68,7 +93,8 @@ header {
     font-family: "Source Sans Pro";
     font-size: 48px;
     font-weight: 400;
-    white-space: nowrap;
+    width: 100%;
+    text-align: center;
 }
 
 .title-header p {
@@ -129,6 +155,9 @@ header {
     font-family: "Source Sans Pro";
     font-size: 36px;
     font-weight: 400;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .title-one p {
@@ -288,10 +317,11 @@ header {
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .four p {
-    width: 70%;
+    width: 100%;
     opacity: 0.9;
     color: #88939e;
     font-family: "Source Sans Pro";
