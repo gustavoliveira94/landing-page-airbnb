@@ -33,7 +33,7 @@
 
     .title-one h2 {
         font-size: 24px;
-        white-space: nowrap;
+        white-space: wrap;
         text-align: center;
         margin-bottom: 20px;
     }
