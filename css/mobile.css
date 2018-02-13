@@ -55,7 +55,7 @@
     }
 
     .two h3 {
-        font-size: 22px;
+        font-size: 22px !important;
         text-align: center;
     }
 
@@ -65,7 +65,7 @@
 
     .two p {
         text-align: center;
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .three {
